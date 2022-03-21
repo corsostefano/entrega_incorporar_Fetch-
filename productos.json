@@ -1,0 +1,142 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Samsung Galaxy S21",
+            "price": 121499,
+            "image": "img/1.png",
+            "category": "celulares-y-telefonos"
+        },
+        {
+            "id": 2,
+            "title": "Samsung Galaxy A03s",
+            "price": 35000,
+            "image": "img/2.png",
+            "category": "celulares-y-telefonos"
+        },
+        {
+            "id": 3,
+            "title": "Apple Iphone 13 pro",
+            "price": 395129,
+            "image": "img/3.png",
+            "category": "celulares-y-telefonos"
+        },
+        {
+            "id": 4,
+            "title": "Motorola Edge 20 lite",
+            "price": 69999,
+            "image": "img/4.png",
+            "category": "celulares-y-telefonos"
+        },
+        {
+            "id": 5,
+            "title": "Xiaomi Redmi Note 10s dual",
+            "price":54999,
+            "image": "img/5.png",
+            "category": "celulares-y-telefonos"
+
+        },
+        {
+            "id": 6,
+            "title": "Canon PowerShot sx540",
+            "price":74990,
+            "image": "img/6.png",
+            "category": "camaras-y-accesorios"
+
+        },
+        {
+            "id": 7,
+            "title": "Nikon kit d7500",
+            "price":455791,
+            "image": "img/7.png",
+            "category": "camaras-y-accesorios"
+        },
+        {
+            "id": 8,
+            "title": "Sony H300 Compacta",
+            "price":455791,
+            "image": "img/8.png",
+            "category": "camaras-y-accesorios"
+        },
+        {
+            "id": 9,
+            "title": "kodax Sport Sx540",
+            "price":6388,
+            "image": "img/9.png",
+            "category": "camaras-y-accesorios"
+        },
+        {
+            "id": 10,
+            "title": "Samsung St64 Compacta",
+            "price":10999,
+            "image": "img/10.png",
+            "category": "camaras-y-accesorios"
+        },
+        {
+            "id": 11,
+            "title": "Microsoft Xbox Serie S",
+            "price":89999,
+            "image": "img/11.png",
+            "category": "consolas-y-videojuegos"
+        },
+        {
+            "id": 12,
+            "title": "Sony Playstation 5",
+            "price":207999,
+            "image": "img/12.png",
+            "category": "consolas-y-videojuegos"
+        },
+        {
+            "id": 13,
+            "title": "Hp Notebook 15-DW1080LA",
+            "price":62999,
+            "image": "img/13.png",
+            "category": "computacion"
+        },
+        {
+            "id": 14,
+            "title": "Exo Notebook Smart XL4-S3542",
+            "price":76999,
+            "image": "img/14.png",
+            "category": "computacion"
+        },
+        {
+            "id": 15,
+            "title": "Lenovo Notebook IdeaPad 15IML05",
+            "price":91999,
+            "image": "img/15.png",
+            "category": "computacion"
+        },
+        {
+            "id": 16,
+            "title": "Dell Notebook Latitude 3190",
+            "price":38999,
+            "image": "img/16.png",
+            "category": "computacion"
+        },
+        {
+            "id": 17,
+            "title": "Philco Smart TV PLD32HS9A1 LED HD 32",
+            "price":30399,
+            "image": "img/17.png",
+            "category": "televisores"
+
+        },
+        {
+            "id": 18,
+            "title": "Samsung Smart TV Series 7 UN50TU7000GCZB LED 4K 50",
+            "price":83999,
+            "image": "img/18.png",
+            "category": "televisores"
+
+        },
+        {
+            "id": 19,
+            "title": "Rca Smart TV AND32Y LED HD 32",
+            "price":30499,
+            "image": "img/19.png",
+            "category": "televisores"
+        }
+        
+    ]
+}

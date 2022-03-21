@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Tienda de Tecnologia</title>
+</head>
+    <body>
+        <header>
+            <nav class="menu" id="menu">
+                <div class="menu-nav contenedor">
+                    <div class="logo">
+                        <h1>Tienda de Tecnologia</h1>
+                    </div>
+                    <ul class="carrito-nav">
+                        <div class="icono-carrito">
+                            <i class="bx bx-cart"></i>
+                            <span class="item-total">0</span>
+                        </div>
+                    </ul>
+                </div>
+                <div class="contenedor contenedor-botones-menu">
+                    <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+                    <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="contenedor contenedor-enlaces-nav">
+                    <div class="btn-departamentos" id="btn-departamentos">
+                        <p>Todos los <span>Departamentos</span></p>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="enlaces">
+                        <a href="#">Cuenta</a>
+                        <a href="#">Promociones</a>
+                        <a href="#">Mesa de Regalos</a>
+                        <a href="#">Ayuda</a>
+                    </div>
+                </div>
+                <div class="contenedor contenedor-grid">
+                    <div class="grid" id="grid">
+                        <div class="categorias">
+                            <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                            <h3 class="subtitulo">Categorias</h3>
+                            <a href="#" data-categoria="celulares-y-telefonos">Celulares y Teléfonos<i class="fas fa-angle-right"></i></a>
+                            <a href="#" data-categoria="computacion">Computación <i class="fas fa-angle-right"></i></a>
+                            <a href="#" data-categoria="camaras-y-accesorios">Cámaras y Accesorios<i class="fas fa-angle-right"></i></a>
+                            <a href="#" data-categoria="electronica-audio-y-video">Electrónica, Audio y Video <i class="fas fa-angle-right"></i></a>
+                            <a href="#" data-categoria="consolas-y-videojuegos">Consolas y video Juegos <i class="fas fa-angle-right"></i></a>
+                            <a href="#" data-categoria="televisores">Televisores <i class="fas fa-angle-right"></i></a>
+                        </div>
+                        <div class="contenedor-subcategorias">
+                            <div class="subcategoria " data-categoria="celulares-y-telefonos">
+                                <div class="enlaces-subcategoria">
+                                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                    <h3 class="subtitulo">Celulares y Teléfonos</h3>
+                                    <a href="#">Celulares y Smartphone</a>
+                                    <a href="#">Accesorios para Celulares</a>
+                                </div>
+                                <div class="banner-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/celulares-banner-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="galeria-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/celulares-galeria-1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/celulares-galeria-2.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/celulares-galeria-3.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/celulares-galeria-4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subcategoria" data-categoria="computacion">
+                                <div class="enlaces-subcategoria">
+                                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                    <h3 class="subtitulo">Computación</h3>
+                                    <a href="#">Componentes para Pc</a>
+                                    <a href="#">Impresión</a>
+                                    <a href="#">Pc de escritorio</a>
+                                    <a href="#">Notebooks</a>
+                                </div>
+                                <div class="banner-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/computacion-banner-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="galeria-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/computacion-galeria-1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/computacion-galeria-2.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/computacion-galeria-3.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/computacion-galeria-4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subcategoria" data-categoria="camaras-y-accesorios">
+                                <div class="enlaces-subcategoria">
+                                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                    <h3 class="subtitulo">Cámaras y Accesorios</h3>
+                                    <a href="#">Cámaras Digitales </a>
+                                    <a href="#">Accesorios para Cámaras</a>
+                                </div>
+                                <div class="banner-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-banner-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="galeria-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-2.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-3.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subcategoria" data-categoria="electronica-audio-y-video">
+                                <div class="enlaces-subcategoria">
+                                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                    <h3 class="subtitulo">Electrónica, Audio y Video</h3>
+                                    <a href="#">Audio</a>
+                                    <a href="#">Accesorios para Audio y Video</a>
+                                    <a href="#">Componentes Electrónicos </a>
+                                    <a href="#">Drones y Accesorios </a>
+                                </div>
+                                <div class="banner-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/electronica-banner-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="galeria-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/electronica-galeria-1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/electronica-galeria-2.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/electronica-galeria-3.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/electronica-galeria-4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subcategoria" data-categoria="consolas-y-videojuegos">
+                                <div class="enlaces-subcategoria">
+                                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                    <h3 class="subtitulo">Consolas y video Juegos</h3>
+                                    <a href="#">Video Juegos</a>
+                                    <a href="#">Para Play Station</a>
+                                </div>
+                                <div class="banner-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/consolas-banner-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="galeria-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-2.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-3.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/camaras-galeria-4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="subcategoria" data-categoria="televisores">
+                                <div class="enlaces-subcategoria">
+                                    <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                                    <h3 class="subtitulo">Televisores</h3>
+                                    <a href="#">Samsung</a>
+                                    <a href="#">Philips</a>
+                                    <a href="#">Lg</a>
+                                    <a href="#">Otras Marcas </a>            
+                                </div>
+                                <div class="banner-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/televisores-banner-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="galeria-subcategoria">
+                                    <a href="#">
+                                        <img src="img/img-menu/televisores-galeria-1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/televisores-galeria-2.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/televisores-galeria-3.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/img-menu/televisores-galeria-4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="contenedor">
+            <article>
+            </article>
+        </main>
+    </body>
+
+    <script src="https://kit.fontawesome.com/595d949b57.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
