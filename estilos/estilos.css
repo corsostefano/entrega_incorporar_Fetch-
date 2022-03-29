@@ -30,12 +30,6 @@ main article {
 	padding: 5px 0;
 	margin-bottom: 20px;
 }
-.menu-nav{
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-	width: 100%;
-}
 .menu .contenedor-botones-menu {
 	display: none;
 	justify-content: space-between;
@@ -106,40 +100,6 @@ main article {
 
 .menu .contenedor-enlaces-nav .enlaces a:hover {
 	border: 1px solid rgba(255,255,255,.4);
-}
-.carrito-nav{
-    display: flex;
-    align-items: center;
-}
-.carrito-nav span{
-    display: inline-block;
-    font-size: 3.5rem;
-    margin-top: .2rem;
-    margin-right: 2rem;
-    color: white;
-}
-.icono-carrito{
-    position: relative;
-    cursor: pointer;
-}
-.icono-carrito i{
-    margin-top: .3rem;
-    font-size: 3.5rem;
-    color: var(--amarillo);
-}
-.icono-carrito span{
-    position: absolute;
-    top: -.4rem;
-    right: -3.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--rojo);
-    color: var(--white);
-    padding: .5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    border-radius: 50%;
 }
 /* Estilos de Menu "Categorias (grid)"*/
 .contenedor-grid {
@@ -292,6 +252,56 @@ main article {
 	width: 50%;
 	height: 50%;
 }
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in;
+}
+.description:hover{
+    height: 100px;
+}
+.imgCard{
+    width: 200px;
+    border-radius: 10PX;
+
+}
+.articulo {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    font-size: 12px;
+    background-color: white;
+}
+.carrito{
+    min-height: 70vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.table__productos{
+    display: flex;
+}
+.table__productos > img{
+    width: 50px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad > input{
+    width: 40px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+
+}
+.alert{
+    z-index: 100;
+}
+.hide{
+    display: none;
+}
 /*Mediaqueries*/
 @media screen and (max-width: 1000px) {
 	.menu .contenedor-enlaces-nav {
@@ -416,4 +426,187 @@ main article {
 		width: 25%;
 		height: 100%;
 	}
+}
+@media(min-width: 858px){
+    .productos{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .articulo {
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+        font-size: 12px;
+        background-color: white;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+}
+/*clases de susbcategorias filtrados de menu*/
+.noMostrar{
+	display: none;
+}
+.celulares_y_Smartphone{
+	display: none;
+}
+.accesorios_para_celulares{
+	display: none;
+}
+.componentes_para_Pc{
+	display: none;
+}
+.impresion{
+	display: none;
+}
+.pc_de_escritorio{
+	display: none;
+}
+.notebooks{
+	display: none;
+}
+.camaras_digitales{
+	display: none;
+}
+.accesorios_para_camaras{
+	display: none;
+}
+.audio{
+	display: none;
+}
+.accesorios_para_audio_y_video{
+	display: none;
+}
+.componentes_electrónicos{
+	display: none;
+}
+.drones_y_accesorios{
+	display: none;
+}
+.videojuegos{
+	display: none;
+}
+.para_playstation{
+	display: none;
+}
+
+.samsung{
+	display: none;
+}
+.philips{
+	display: none;
+}
+.lg{
+	display: none;
+}
+.otras_marcas{
+	display: none;
+}
+
+.celulares_y_Smartphone.activo1{
+	display: flex;
+}
+.accesorios_para_celulares.activo2{
+	display: flex;
+}
+.componentes_para_Pc.activo3{
+	display: flex;
+}
+.impresion.activo4{
+	display: flex;
+}
+.pc_de_escritorio.activo5{
+	display: flex;
+}
+.notebooks.activo6{
+	display: flex;
+}
+.camaras_digitales.activo7{
+	display: flex;
+}
+.accesorios_para_camaras.activo8{
+	display: flex;
+}
+.audio.activo9{
+	display: flex;
+}
+.accesorios_para_audio_y_video.activo10{
+	display: none;
+}
+.componentes_electrónicos.activo11{
+	display: flex;
+}
+.drones_y_accesorios.activo12{
+	display: flex;
+}
+.videojuegos.activo13{
+	display: flex;
+}
+.para_playstation.activo14{
+	display: flex;
+}
+.samsung.activo15{
+	display: flex;
+}
+.philips.activo16{
+	display: flex;
+}
+.lg.activo17{
+	display: flex;
+}
+.otras_marcas.activo18{
+	display: flex;
+}
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in;
+}
+.description:hover{
+    height: 100px;
+}
+.imgCard{
+    width: 200px;
+    border-radius: 10PX;
+
+}
+.articulo {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    font-size: 12px;
+    background-color: white;
+}
+.carrito{
+    min-height: 70vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.table__productos{
+    display: flex;
+}
+.table__productos > img{
+    width: 50px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad > input{
+    width: 40px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+
+}
+.alert{
+    z-index: 100;
+}
+.hide{
+    display: none;
 }

@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <title>Tienda de Tecnologia</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+        <link rel="stylesheet" href="estilos/estilos.css">
+        <title>Tienda de Tecnologia</title>
+    </head>
     <body>
         <header>
             <nav class="menu" id="menu">
-                <div class="menu-nav contenedor">
-                    <div class="logo">
-                        <h1>Tienda de Tecnologia</h1>
+                <div class="contenedor navbar navbar-expand-lg  d-flex justify-content-between">
+                    <a class="navbar-brand" href="#">Tienda de Tecnologia</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor02">
+                      <ul class="nav navbar-nav me-auto nav-tabs text-center">
+                          <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#profile">Productos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"  data-bs-toggle="tab" href="#carrito"><i class="fa-solid fa-cart-shopping"></i></a>
+                          </li>
+                        </ul>
                     </div>
-                    <ul class="carrito-nav">
-                        <div class="icono-carrito">
-                            <i class="bx bx-cart"></i>
-                            <span class="item-total">0</span>
-                        </div>
-                    </ul>
-                </div>
+                  </div>
                 <div class="contenedor contenedor-botones-menu">
                     <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
                     <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
@@ -56,8 +61,8 @@
                                 <div class="enlaces-subcategoria">
                                     <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
                                     <h3 class="subtitulo">Celulares y Teléfonos</h3>
-                                    <a href="#">Celulares y Smartphone</a>
-                                    <a href="#">Accesorios para Celulares</a>
+                                    <a id="btn_celulares" href="#">Celulares y Smartphone</a>
+                                    <a id="btn_accesorios_celulares" href="#">Accesorios para Celulares</a>
                                 </div>
                                 <div class="banner-subcategoria">
                                     <a href="#">
@@ -83,10 +88,10 @@
                                 <div class="enlaces-subcategoria">
                                     <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
                                     <h3 class="subtitulo">Computación</h3>
-                                    <a href="#">Componentes para Pc</a>
-                                    <a href="#">Impresión</a>
-                                    <a href="#">Pc de escritorio</a>
-                                    <a href="#">Notebooks</a>
+                                    <a id="btn_componentes_para_pc" href="#">Componentes para Pc</a>
+                                    <a id="btn_impresion" href="#">Impresión</a>
+                                    <a id="btn_pc_escritorio" href="#">Pc de escritorio</a>
+                                    <a id="btn_notebook" href="#">Notebooks</a>
                                 </div>
                                 <div class="banner-subcategoria">
                                     <a href="#">
@@ -112,8 +117,8 @@
                                 <div class="enlaces-subcategoria">
                                     <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
                                     <h3 class="subtitulo">Cámaras y Accesorios</h3>
-                                    <a href="#">Cámaras Digitales </a>
-                                    <a href="#">Accesorios para Cámaras</a>
+                                    <a id="camaras_digitales" href="#">Cámaras Digitales </a>
+                                    <a id="accesorios_camaras" href="#">Accesorios para Cámaras</a>
                                 </div>
                                 <div class="banner-subcategoria">
                                     <a href="#">
@@ -139,10 +144,10 @@
                                 <div class="enlaces-subcategoria">
                                     <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
                                     <h3 class="subtitulo">Electrónica, Audio y Video</h3>
-                                    <a href="#">Audio</a>
-                                    <a href="#">Accesorios para Audio y Video</a>
-                                    <a href="#">Componentes Electrónicos </a>
-                                    <a href="#">Drones y Accesorios </a>
+                                    <a id="btn_audio" href="#">Audio</a>
+                                    <a id="btn_accesorios_audio_y_video" href="#">Accesorios para Audio y Video</a>
+                                    <a id="btn_componentes_electronicos" href="#">Componentes Electrónicos </a>
+                                    <a id="btn_drones_y_accesorios" href="#">Drones y Accesorios</a>
                                 </div>
                                 <div class="banner-subcategoria">
                                     <a href="#">
@@ -168,8 +173,8 @@
                                 <div class="enlaces-subcategoria">
                                     <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
                                     <h3 class="subtitulo">Consolas y video Juegos</h3>
-                                    <a href="#">Video Juegos</a>
-                                    <a href="#">Para Play Station</a>
+                                    <a id="btn_videojuegos" href="#">Videojuegos</a>
+                                    <a id="btn_para_playstation" href="#">Para PlayStation</a>
                                 </div>
                                 <div class="banner-subcategoria">
                                     <a href="#">
@@ -195,10 +200,10 @@
                                 <div class="enlaces-subcategoria">
                                     <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
                                     <h3 class="subtitulo">Televisores</h3>
-                                    <a href="#">Samsung</a>
-                                    <a href="#">Philips</a>
-                                    <a href="#">Lg</a>
-                                    <a href="#">Otras Marcas </a>            
+                                    <a id="btn_samsung"  href="#">Samsung</a>
+                                    <a id="btn_philips" href="#">Philips</a>
+                                    <a id="btn_lg" href="#">Lg</a>
+                                    <a id="btn_otras_marcas" href="#">Otras Marcas </a>            
                                 </div>
                                 <div class="banner-subcategoria">
                                     <a href="#">
@@ -223,11 +228,53 @@
                         </div>
                     </div>
                 </div>
+                
             </nav>
         </header>
-        <main class="contenedor">
-            <article>
-            </article>
+        <main>
+            <div id="myTabContent" class="tab-content">
+                <div class=" container tab-pane fade show active" id="profile">
+                    <div class="continer">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h1 class="pt-3">Selecciona tus Productos </h1>
+                        </div>
+                    </div>
+                </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="divProductos" class="productos">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" container tab-pane fade carrito" id="carrito">
+                    <br>
+                    <table class="table table-hover ">
+                        <thead>
+                          <tr class="text-primary">
+                            <th scope="col">#</th>
+                            <th scope="col">Productos</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                          </tr>
+                        </thead>
+                        <tbody class="tbody">
+                        </tbody>
+                      </table>
+                      <br>
+                      <div class="row mx-4">
+                          <div class="col">
+                              <h3 class="itemCartTotal">Total $</h3>
+                          </div>
+                          <div class="col d-flex justify-content-end">
+                            <button type="button" class="btn btn-success">Comprar</button>
+                          </div>
+                      </div>
+                </div>
+            </div>
         </main>
     </body>
 
